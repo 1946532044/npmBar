@@ -1,0 +1,20 @@
+.el-table th.el-table__cell {
+  background-color: #28323B;
+
+  color: #fff;
+}
+
+
+.el-table--scrollable-y .el-table__body-wrapper {
+  ::-webkit-scrollbar {
+    /*滚动条整体样式*/
+    width: 10px;
+    /*高宽分别对应横竖滚动条的尺寸*/
+    height: 10px;
+  }
+
+}
+
+.el-table__body tr.current-row>td.el-table__cell {
+  background-color: rgba(61, 61, 61, 0.397) !important;
+}

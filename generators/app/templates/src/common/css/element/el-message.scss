@@ -1,0 +1,10 @@
+.el-message-box__wrapper {
+  .el-message-box {
+    .el-message-box__btns {
+      .el-button:first-child {
+        float: right;
+        margin-left: 10px;
+      }
+    }
+  }
+}

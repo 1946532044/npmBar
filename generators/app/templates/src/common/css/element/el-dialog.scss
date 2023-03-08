@@ -1,0 +1,53 @@
+.el-dialog__wrapper {
+  overflow: hidden;
+
+  .el-dialog {
+    max-width: 1300px;
+
+    .el-dialog__header {
+      padding-top: 14px;
+      background-color: #28323B;
+
+      .el-dialog__title {
+        color: #fff;
+      }
+
+      .el-dialog__headerbtn i {
+        color: #fff;
+
+        &:hover {
+          color: #ccc;
+        }
+
+      }
+
+
+    }
+
+    .el-dialog__body {
+      padding: 8px 20px;
+      max-height: calc(100vh - 250px);
+      overflow-y: auto;
+      overflow-x: hidden;
+      box-sizing: border-box;
+
+      .el-button {
+        &.el-button--primary {
+          background-color: #28323B;
+          border-color: #28323B;
+        }
+      }
+    }
+
+    .el-dialog__footer {
+      .el-button {
+        border-radius: 1px;
+
+        &.el-button--primary {
+          background-color: #28323B;
+          border-color: #28323B;
+        }
+      }
+    }
+  }
+}
